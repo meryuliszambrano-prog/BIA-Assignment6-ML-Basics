@@ -1,4 +1,4 @@
-# BIA – Lesson 6: Machine Learning Basics
+# BIA – Lesson 6: Machine Learning Basics (Assignment)
 
 **Student:** Meryulis Zambrano
 
@@ -6,26 +6,17 @@
 
 **Course:** Introduction to AI
 
-This repository contains the Lab Activity and the Assignment for Lesson 6, where I follow a simple machine learning project cycle:
-data loading → EDA and preprocessing → model training → model evaluation → prediction.
+This repository contains the Assignment for Lesson 6: **House Price Prediction using the California Housing dataset**. I follow a simple machine learning project cycle: data loading → EDA and preprocessing → model training → model evaluation → prediction.
 
 ## Files
 
 | File | Description |
 |------|-------------|
-| `Lesson_6_lab_ML_Basics.ipynb` | Lab: Future Sales Prediction using advertising spend (TV, radio, newspaper) and Linear Regression |
-| `advertising.csv` | Dataset used in the lab (200 rows) |
-| `Lesson_6_ml_basic_assignment.ipynb` | Assignment: House Price Prediction using the California Housing dataset from scikit-learn |
-| PDF files | Notebooks exported with their outputs |
+| `Lesson_6_ml_basic_assignment_Meryulis.ipynb` | Colab notebook with code, comments and outputs |
+| `Lesson_6_ml_basic_assignment_Meryulis.pdf` | Notebook exported as PDF with outputs |
 
-## Lab – Future Sales Prediction
-- Checked for null values and visualised each platform against sales with Plotly.
-- Created a reusable function `visualizeSalesData()` to plot any platform.
-- Trained a Linear Regression model (80/20 split).
-- Evaluated it with R², MAE, MSE, RMSE, an Actual vs Predicted plot and 5-fold cross-validation (R² ≈ 0.90).
-- Discussed why the model is not fully reliable (small dataset, missing factors, linear assumption).
+## Summary
 
-## Assignment – California House Price Prediction
 - Loaded the dataset with `fetch_california_housing()` and converted it to a DataFrame.
 - Inspected the data with `.head()`, `.info()` and `.describe()`; checked for null values.
 - Created the function `visualizeHousingData()` to plot several features against `MedHouseVal`.
@@ -33,4 +24,5 @@ data loading → EDA and preprocessing → model training → model evaluation �
 - Predicted the house value for a new set of inputs.
 
 ## Tools
-Python, pandas, NumPy, Matplotlib, Seaborn, Plotly, scikit-learn, Google Colab, GitHub.
+
+Python, pandas, NumPy, Matplotlib, Seaborn, scikit-learn, Google Colab, GitHub.
