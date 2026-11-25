@@ -1,7 +1,9 @@
 # BIA – Lesson 6: Machine Learning Basics
 
 **Student:** Meryulis Zambrano
+
 **Program:** Diploma in Business Intelligence Analyst – Willis College
+
 **Course:** Introduction to AI
 
 This repository contains the Lab Activity and the Assignment for Lesson 6, where I follow a simple machine learning project cycle:
